@@ -13,6 +13,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import BreakOut from './games/breakout'
 Framework7.use(Framework7React);
 
 ReactDOM.render(

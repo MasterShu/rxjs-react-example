@@ -17,6 +17,9 @@ export default class HomePage extends React.Component {
         <Button>
           <Link href="/redux/counter">Redux Counter</Link>
         </Button>
+        <Button>
+          <Link href="/games/breakout">Breakout-games</Link>
+        </Button>
       </Page>
     )
   }

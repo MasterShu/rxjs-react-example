@@ -3,6 +3,7 @@ import Counter from './components/pages/Counter'
 import HocCounter from './components/pages/CounterHoC'
 import StopWatch from './components/pages/StopWatch'
 import ReduxCounter from './components/pages/redux/Counter'
+import BreakOut from './games/breakout'
 
 export default [
   {
@@ -24,5 +25,9 @@ export default [
   {
     path: '/redux/counter',
     component: ReduxCounter
+  },
+  {
+    path: '/games/breakout',
+    component: BreakOut
   }
 ];
