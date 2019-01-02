@@ -5,7 +5,7 @@ import React from 'react'
 var config = {
     type: Phaser.WEBGL,
     width: 375,
-    height: 667,
+    height: 600,
     parent: 'phaser-example',
     scene: {
         preload: preload,
